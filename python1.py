@@ -21,8 +21,9 @@ print(sum5)
 print('여기까지 문제없이 사칙연산이 잘되나 확인')
 juna=input('문자입력')
 june=('joonas')
-index1 = mstring.find('joonas')
-final1= mtring[:index1]+'??!'
-if(juna==june) :
-    print(final1)
+#index1 = mstring.find('joonas')
+#final1= mtring[:index1]+'??!'
+#if(juna==june) :
+#    print(final1)
 #백준 ??!까지 풀다가 말았음
+
