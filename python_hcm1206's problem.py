@@ -5,3 +5,4 @@ CM = input("키 입력:")
 REALCM = float(CM)/100
 BMI = float(KG)/float(REALCM**2)
 print("BMI는 %.1lf 입니다." %(BMI))
+#빽
