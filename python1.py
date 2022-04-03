@@ -26,4 +26,5 @@ june=('joonas')
 #if(juna==june) :
 #    print(final1)
 #백준 ??!까지 풀다가 말았음
-
+problem1 = '%.2f' %79.1232
+print(problem1)

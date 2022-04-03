@@ -2,8 +2,8 @@ print("----------빽----------") # 떽!
  
 import random # 무요 이것도 읽을꺼야?
 
-binaryCost1 = random.randint(1,100) # 아저씨가 범위 안줘서 그냥 내가 정함
-binaryCost2 = random.randint(1,100) # 2번 피연산자
+binaryCost1 = random.randint(1,256) # 아저씨가 범위 안줘서 그냥 내가 정함
+binaryCost2 = random.randint(1,256) # 2번 피연산자
 
 print(binaryCost1) # 10진수 랜덤숫자가 잘 나오는지 테스트 
 print(binaryCost2) # 두번째 자연수가 잘 나오나 테스트
@@ -15,6 +15,7 @@ realbinary2 = format(binaryCost2 , 'b')
 realbinary1 = bin(binaryCost1) # 2진수로 바뀌였다.
 realbinary2 = bin(binaryCost2)
 
+
 print(realbinary1[2:]) # 앞에 ob는 떼고 출력해줌 정상적으로 이진수 출력
 print(realbinary2[2:]) # 두번째 이진수
 print("----------------------")
@@ -22,7 +23,8 @@ print("----------------------")
 
 def plus(realbinary1,realbinary2):
     binaryplus = realbinary1 + realbinary2
-    print(binaryplus[2:])
+    print(binaryplus[2:]) # 맨앞에 0b 지우는거임
+    print(type(binaryplus))
     return binaryplus
 
 
